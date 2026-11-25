@@ -3,7 +3,7 @@
 <package format="3">
   <name>cpp_pubsub</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Paquete de ejemplo ROS 2 con nodos publicador y suscriptor en C++. Publica números primos (std_msgs/Int32 en el tópico primos) y mensajes std_msgs/String en el tópico topic, con un nodo suscriptor que los escucha.</description>
   <maintainer email="fjrodl@unileon.es">ulixes</maintainer>
   <license>Apache-2.0</license>
 
