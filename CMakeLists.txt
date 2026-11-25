@@ -19,12 +19,8 @@ if(BUILD_TESTING)
   # comment the line when this package is in a git repo and when
   # a copyright and license is added to all source files
   # set(ament_cmake_cpplint_FOUND TRUE)
-  # ament_copyright does not detect copyright headers in .md files,
-  # so exclude CONTRIBUTING.md from the copyright check.
-  set(AMENT_LINT_AUTO_FILE_EXCLUDE "*/CONTRIBUTING.md")
   ament_lint_auto_find_test_dependencies()
 endif()
-
 
 add_executable(publisher_node src/publisher_node.cpp)
 ament_target_dependencies(publisher_node rclcpp std_msgs)
