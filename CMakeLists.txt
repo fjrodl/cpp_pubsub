@@ -21,7 +21,7 @@ if(BUILD_TESTING)
   # set(ament_cmake_cpplint_FOUND TRUE)
   # ament_copyright does not detect copyright headers in .md files,
   # so exclude CONTRIBUTING.md from the copyright check.
-  set(AMENT_LINT_AUTO_FILE_EXCLUDE "CONTRIBUTING.md")
+  set(AMENT_LINT_AUTO_FILE_EXCLUDE "*/CONTRIBUTING.md")
   ament_lint_auto_find_test_dependencies()
 endif()
 
